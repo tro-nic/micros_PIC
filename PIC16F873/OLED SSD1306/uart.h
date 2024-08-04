@@ -1,7 +1,7 @@
 /* 
  * File:   uart.h 
  * Author: Angel Bautista
- * Comments: Libreria para comunicaci髇 via uart "RS232"
+ * Comments: Libreria para comunicaci贸n via uart "RS232"
  *  Revision history: 0 28/07/24 
  * -inicio de proyecto
  */
@@ -18,16 +18,16 @@
         //baudios = Fosc/16(SPBRG + 1) ; SPBRG-> 0 a 255
         if(baudios <= 0)baudios = 25; //9600 Baudios Alta velocidad asincrono 
         SPBRG = baudios;
-        //configuraci髇 de transmision
+        //configuraci贸n de transmision
         //TXSTAbits.CSRC = 0; // Slave mode reloj externo
          TXSTAbits.TXEN = 1;
       //  TXSTAbits.TX9 = 0; //8 bits
       //  TXSTAbits.SYNC = 0; // Asincrono
         TXSTAbits.BRGH = 1; // Alta velocidad
        // TXSTAbits.TX9 = 0; // bit de paridad.
-        //Configuraci髇 de recepcion
+        //Configuraci贸n de recepcion
         RCSTAbits.SPEN = 1; //Serial port activo, RB2 = RX / RB5 = TX
-        RCSTAbits.CREN = 1; //recepci髇 continua
+        RCSTAbits.CREN = 1; //recepci贸n continua
       //  RCSTAbits.RX9 = 0; // 8 bits
         return 0;
     }
@@ -55,7 +55,7 @@
        //buffer
         if (RCSTAbits.OERR) { //Coreccion de error
         RCSTAbits.CREN = 0;
-        RCSTAbits.CREN = 1; //recepci髇 continua
+        RCSTAbits.CREN = 1; //recepci贸n continua
         }
 
         return RCREG;
