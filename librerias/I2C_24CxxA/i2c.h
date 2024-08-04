@@ -1,5 +1,6 @@
 #ifndef i2c_H
 #define	i2c_H
+#include <uart.h>
 
 __bit iniciar_i2c(){
     // SSPCONbits.WCOL // Bandera de colicion poner a 0
