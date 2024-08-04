@@ -21,6 +21,6 @@ Tecnologia utilizados como perifericos:
 
   - LCD 2x16
   - 7 segmen Display
-  - OLED 1306 -> I2C
+  - OLED SSD1306 -> I2C
   - 24CXX -> I2C
   
