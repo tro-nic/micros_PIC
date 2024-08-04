@@ -6,7 +6,7 @@
  * Comments: Intento de libreria generica
  * Revision history: 15/7/24
  * rev 1 28/07/24 
- * - se reorganiza la cebecera y se crean las librerias de cmomunicación
+ * - se reorganiza la cebecera y se crean las librerias de cmomunicaciÃ³n
  */
 
 
