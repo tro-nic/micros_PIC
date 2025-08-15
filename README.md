@@ -27,4 +27,7 @@ Tecnologia utilizados como perifericos:
   - 7 segmen Display
   - OLED SSD1306 -> I2C
   - 24CXX -> I2C
-  
+  - Drivers de motor
+  - Drivers para mosfet
+  - Reguladores lineales, PWM, FM
+  - DC motor
