@@ -6,6 +6,7 @@ Lista de micros utlizados:
   12f508
   12f509
   12f683
+  16F1619
   16f628
   16F648
   16f676
@@ -16,6 +17,9 @@ Lista de micros utlizados:
   16f873
   16f877
   18f4550
+  18f45k50
+  18f47Q10
+   
 
 Tecnologia utilizados como perifericos:
 
