@@ -17,6 +17,7 @@ Lista de micros utlizados:
   16f873
   16f877
   18f4550
+  18f25Q10
   18f45k50
   18f47Q10
    
